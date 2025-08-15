@@ -1,0 +1,34 @@
+{
+  "name": "@shazomiii/simple-dropdown",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shazomii/dropdown-menu.git"
+  },
+  "keywords": [
+    "dropdown",
+    "menu",
+    "ui-component"
+  ],
+  "author": "Oluseye Oyeniran",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/shazomii/dropdown-menu/issues"
+  },
+  "homepage": "https://github.com/shazomii/dropdown-menu#readme",
+  "description": "A simple dropdown menu.",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.101.2",
+    "webpack-cli": "^6.0.1"
+  }
+}
