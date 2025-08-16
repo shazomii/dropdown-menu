@@ -6,11 +6,15 @@ module.exports = (env, argv) => {
   return {
     mode: isProduction ? 'production' : 'development',
     entry: isProduction ? './src/index.js' : './index.js',
+    experiments: {
+      outputModule: true,
+    },
     output: {
       filename: 'main.js',
       path: path.resolve(__dirname, 'dist'),
-      library: 'DropdownMenu',
-      libraryTarget: 'umd',
+      library: {
+        type: 'module',
+      },
       clean: true,
     },
     module: {
